@@ -5,10 +5,6 @@ import java.util.LinkedList;
 
 /**
  * Graph - A class that implements an undirected graph using adjacency (linked) lists,
- * as explained in Week 6.
- *
- * ATTENTION: You do NOT need to modify this code at all.
- *
  */
 
 public class Graph {
