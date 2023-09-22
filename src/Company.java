@@ -2,9 +2,6 @@ import java.util.ArrayList;
 
 /**
  * A class that associates the current company, the list of customers (stored as a Binary Tree), and a list of employees.
- *
- * ATTENTION: You do NOT need to modify this code at all.
- *
  */
 public class Company
 {
@@ -116,8 +113,6 @@ public class Company
     }
     /*
      * Methods created to aid the merge sort in comparison
-     * Although these methods are not mandatory to carry out to the sort -given that the methods above can be used,
-     *  I created these ones because I tend to understand better what is going on behind the codes.
      */
 
     /* Is less than method helps sort the companies by their codes
