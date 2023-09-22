@@ -1,14 +1,7 @@
 import java.util.*;
 
 /**
- * BinaryTree - An example of a Binary Tree built using Node objects. Some of
- * the functionality for this class is provided for you (and may provide clues
- * as to how to implement assignment methods). Your main task is to implement the
- * method bodies for:
- *
- * 		protected void walkTree(Node n, StringBuffer sb)
- * 		protected Customer find(String name, Node n)
- *
+ * BinaryTree - An example of a Binary Tree built using Node objects.
  */
 public class BinaryTree {
 
@@ -150,7 +143,7 @@ public class BinaryTree {
             if (temp.hasRight()) queue.add(temp.right());
             sb.append(temp.getNodeObjectName() + ",");
         }
-        //Breadth first search adopted from Big Java Early objects -- The required textbook for this course.
+        //Breadth first search adopted from Big Java Early objects
 
     }
     /**
@@ -165,10 +158,7 @@ public class BinaryTree {
 
     /**
      * Internal protected method used to search the tree from node 'n' looking for a
-     * Node with the given 'name'. You should provide the correct recursive
-     * implementation for this method. Some helpful lines of code have been
-     * included...
-     *
+     * Node with the given 'name'. 
      * @param name	The name to search for
      * @param n		The current node in the tree to search from
      * @return		A reference to the node that was found or null if not found
