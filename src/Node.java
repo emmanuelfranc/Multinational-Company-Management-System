@@ -2,9 +2,6 @@
  * A node in the BinaryTree. It contains a reference to an object
  * associated with the node and references to the left and right Node objects
  * that are below the node.
- *
- * ATTENTION: You do NOT need to modify this code at all.
- *
  */
 
 public class Node {
